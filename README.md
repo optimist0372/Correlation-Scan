@@ -45,7 +45,7 @@ $ perl script/correlation_scan.pl --help
 
 ```
 
-<img src= "images/help.png" width=400, height = 400>
+<img src= "images/help.png" width=400, height = 300>
 
 
 
