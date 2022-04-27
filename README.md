@@ -55,13 +55,13 @@ $ perl script/correlation_scan.pl --file example/sample.txt --size 500 --slide 1
 --chrset 30 --chr 1-30 --out toy
 
 ```
-### Runinng Correlation Scan for the whole chromosome (e.g 1)
+### Runinng Correlation Scan for the whole chromosome (e.g. 1)
 ```
 $ perl script/correlation_scan.pl --file example/sample.txt --size 500 --slide 100 --shuffle 1000 \
 --chrset 30 --chr 1 --out toy
 
 ```
-### Runinng Correlation Scan for the whole chromosome (e.g 1,4,5,10 and 20)
+### Runinng Correlation Scan for the whole chromosome (e.g. 1,4,5,10 and 20)
 ```
 $ perl script/correlation_scan.pl --file example/sample.txt --size 500 --slide 100 --shuffle 1000 \
 --chrset 30 --chr 1,4-5,10,20 --out toy
