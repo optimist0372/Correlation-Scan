@@ -15,7 +15,22 @@ $ cd ./Correlation-scan
 ### Input data format
 Note:  example data are provided in **example_data** folder.
 
-Correlation scan only needs one input file
+Correlation scan only needs **one input file**
+
+This input file requires four (4) Columns:
+
+1. **Chr:** Chromosome number of each SNP effect
+2. **Position:** Chromosome position of each SNP effect
+3. **TraitA:** BLUP solution of SNP effects for trait A
+4. **TraitB:** BLUP solution of SNP effects for trait A
+
+Here is a typical header of the example file
+
+
+If you chromosome contain sex chromosome (e.g. X), the X chromosome should be; (autosome number +1).
+For example, for *bos* taurus with 29 autosomes, the X chromosome will be 30.
+
+
 
 
 
