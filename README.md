@@ -15,9 +15,9 @@ $ cd ./Correlation-scan
 ### Input data format
 Note:  example data are provided in **example_data** folder.
 
-Correlation scan only needs **one input file**
+Correlation scan only requires **one input file**
 
-This input file requires four (4) Columns:
+This input file should contain four (4) Columns:
 
 1. **Chr:** Chromosome number of each SNP effect
 2. **Position:** Chromosome position of each SNP effect
