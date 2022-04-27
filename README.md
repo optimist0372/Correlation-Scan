@@ -29,12 +29,12 @@ This input file should contain four (4) Columns:
 
 **Here is a typical header of the input file**
 
-<img src= "images/head.png">
+<img src= "images/head.png" width=100>
 
 If you chromosome contain sex chromosome (e.g. X), the X chromosome should be; (autosome number +1).
 For example, for *bos* taurus with 29 autosomes, the X chromosome will be 30.
 
-<img src= "images/tail.png">
+<img src= "images/tail.png" width=100>
 
 
 
