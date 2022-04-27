@@ -27,14 +27,16 @@ This input file should contain four (4) Columns:
 3. `TraitA`: BLUP solution of SNP effects for trait A
 4. `TraitB:` BLUP solution of SNP effects for trait A
 
-Here is a typical header of the input file
+**Here is a typical header of the input file**
 
 <img src= "images/head.png">
 
-![alt text](images/head.png)
-
 If you chromosome contain sex chromosome (e.g. X), the X chromosome should be; (autosome number +1).
 For example, for *bos* taurus with 29 autosomes, the X chromosome will be 30.
+
+<img src= "images/tail.png">
+
+
 
 
 
