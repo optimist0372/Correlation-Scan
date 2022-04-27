@@ -36,8 +36,16 @@ For example, for *bos* taurus with 29 autosomes, the X chromosome will be 30.
 
 <img src= "images/tail.png" width=400>
 
+## How run correlation scan
 
+To run correlation scan, you can first run the *--help* command to get an overview about the built-in commands and their description
 
+```
+$ perl script/correlation_scan.pl --help
+
+```
+
+<img src= "images/help.png" width=400>
 
 
 
