@@ -19,10 +19,10 @@ Correlation scan only requires **one input file**
 
 This input file should contain four (4) Columns:
 
-1. `Chr:` Chromosome number of each SNP effect
-2. **Position:** Chromosome position of each SNP effect
-3. **TraitA:** BLUP solution of SNP effects for trait A
-4. **TraitB:** BLUP solution of SNP effects for trait A
+1. `Chr`: Chromosome number of each SNP effect
+2. `Position`: Chromosome position of each SNP effect
+3. `TraitA`: BLUP solution of SNP effects for trait A
+4. `TraitB:` BLUP solution of SNP effects for trait A
 
 Here is a typical header of the example file
 
