@@ -15,7 +15,7 @@ $ git clone https://github.com/optimist0372/Correlation-Scan/
 $ cd ./Correlation-scan
 ```
 
-### Input data format
+### Input Data Format
 Note:  example data are provided in **example_data** folder.
 
 Correlation scan only requires **one input file**
@@ -36,7 +36,7 @@ For example, for *bos* taurus with 29 autosomes, the X chromosome will be 30.
 
 <img src= "images/tail.png" width=400>
 
-## How run correlation scan
+## How to Run Correlation Scan
 
 To run correlation scan, you can first use the *--help* command to get an overview about the built-in commands and their description
 
@@ -49,19 +49,19 @@ $ perl script/correlation_scan.pl --help
 
 Now that you have an overview of command-line arguments and their explanation, you may run the following command:
 
-### Runinng Correlation Scan for the whole chromosome (e.g. 1-30)
+### Runinng Correlation Scan for the Whole Chromosomes (e.g. 1-30)
 ```
 $ perl script/correlation_scan.pl --file example/sample.txt --size 500 --slide 100 --shuffle 1000 \
 --chrset 30 --chr 1-30 --out toy
 
 ```
-### Runinng Correlation Scan for the whole chromosome (e.g. 1)
+### Runinng Correlation Scan for a Single Chromosome (e.g. 1)
 ```
 $ perl script/correlation_scan.pl --file example/sample.txt --size 500 --slide 100 --shuffle 1000 \
 --chrset 30 --chr 1 --out toy
 
 ```
-### Runinng Correlation Scan for the whole chromosome (e.g. 1,4,5,10 and 20)
+### Runinng Correlation Scan for some Specified Chromosomes (e.g. 1,4,5,10 and 20)
 ```
 $ perl script/correlation_scan.pl --file example/sample.txt --size 500 --slide 100 --shuffle 1000 \
 --chrset 30 --chr 1,4-5,10,20 --out toy
