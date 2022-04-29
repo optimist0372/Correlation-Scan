@@ -91,9 +91,9 @@ The toy.res file is a tab delimited file consisting of the following colums:
  * `Start`:
  * `End`:
  * `r`:
- * `*P*-values`
- * `p_avg`
- * `p <sub>1</sub> .. p <sub>n</sub> ` :
+ * `*P*-values`:
+ * `p_avg`:
+ * `p1..pn`:
  
 ### 2. toy.nwc
 This is a tab delimited file consisting of the following colums
