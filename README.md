@@ -78,13 +78,29 @@ $ perl script/correlation_scan.pl --file example_data/sample.txt \
 
 Correlation scan produce three (3) output files based on user defined output name (i.e., toy)
 
-1. toy.res
+1. toy.res 
 2. toy.nwc
 3. toy.chc
 
 ### 1. toy.res
 
-The toy.res file is a tab delimited file, with rows corresponding to different windows local correlation estimates and columns as such:
+The toy.res file is a tab delimited file consisting of the following colums:
 
- * Bullet list
+ * `Window`:
+ * `Chr`:
+ * `Start`:
+ * `End`:
+ * `r`:
+ * *P*-values
+ * `p_avg`
+ * `p~1~..p~n~`:
 
+### 2. toy.nwc
+This is a tab delimited file consisting of the following colums
+ * `Chr`:
+ * `No_of_windows`:
+ 
+### 3. toy.chc
+This is also a tab delimited file consisting of the following colums
+ * `Chr`:
+ * `Count`:
