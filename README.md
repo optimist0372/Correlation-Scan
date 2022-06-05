@@ -4,6 +4,7 @@ Correlation scan is a statistical framework developed to estimate local genetic 
 
 ## Requirements
 The software is developed using [Perl language](https://www.perl.org/get.html) and has been tested in Linux, Windows and Mac OS environments.
+Donwload Perl [here](https://www.perl.org/get.html) for your operating system.
 
 ## Tutorial
 The tutorial will show you how to download and run Correlation Scan 
