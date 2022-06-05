@@ -48,27 +48,20 @@ $ perl script/correlation_scan.pl --help
 
 Now that you have an overview of command-line arguments and their explanation, you may run the following command:
 
-### Runinng Correlation Scan for the Whole Chromosomes (e.g. 1 to 30)
-```
-$ perl script/correlation_scan.pl --file example_data/sample.txt --size 500 --slide 100 --shuffle 1000 --chrset 30 --chr 1-30 --out toy
-
 ```
 ### Runinng Correlation Scan for a Single Chromosome (e.g. 1)
 ```
-$ perl script/correlation_scan.pl --file example_data/sample.txt\
---size 500 --slide 100 --shuffle 1000 \
---chrset 30 --chr 1 \
---out toy 
+$ perl script/correlation_scan.pl --file example_data/sample.txt --size 500 --slide 100 --shuffle 1000 --chrset 30 --chr 1 --out toy 
 
 ```
 ### Runinng Correlation Scan for some Specified Chromosomes (e.g. 1,4,5,10 and 20)
 ```
-$ perl script/correlation_scan.pl --file example_data/sample.txt \
---size 500 --slide 100 --shuffle 1000 \
---chrset 30 --chr 1,4-5,10,20 \
---out toy
+$ perl script/correlation_scan.pl --file example_data/sample.txt --size 500 --slide 100 --shuffle 1000 --chrset 30 --chr 1,4-5,10,20 --out toy
 
 ```
+### Runinng Correlation Scan for the Whole Chromosomes (e.g. 1 to 30)
+```
+$ perl script/correlation_scan.pl --file example_data/sample.txt --size 500 --slide 100 --shuffle 1000 --chrset 30 --chr 1-30 --out toy
 
 ## Explanation of Outputs files
 
