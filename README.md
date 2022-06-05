@@ -82,13 +82,13 @@ Correlation scan produce three (3) output files based on user defined output nam
 
 The toy.res file is a tab delimited file consisting of the following colums:
 
- * `Window`:
- * `Chr`:
- * `Start`:
- * `End`:
- * `r`:
- * `P-values`:
- * `p_avg`:
+ * `Window`: The window number
+ * `Chr`: The chromosome number
+ * `Start`: The start position of the local genomic region 
+ * `End`: The end position of the local genomic region 
+ * `r`: The local genetic correlation estimate
+ * `P-value`:The p value of local genetic correlation
+ * `p_avg`: The mean of the the permuted local genetic correlation for *n* number of interation
  * `p1..pn`:
  
 ### 2. toy.nwc
