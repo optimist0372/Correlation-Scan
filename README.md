@@ -17,7 +17,7 @@ $ cd ./Correlation-scan
 ```
 
 ### Input Data Format
-`Note`:  example data are provided in **example_data** folder.
+`Note`:  Example data are provided in **example_data** folder.
 
 Correlation scan only requires **one input file**
 
