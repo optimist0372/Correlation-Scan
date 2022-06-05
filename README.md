@@ -76,7 +76,7 @@ $ perl script/correlation_scan.pl --file example_data/sample.txt \
 
 ## Explanation of Outputs files
 
-Correlation scan produce three (3) output files based on user defined output name (i.e., toy)
+Correlation scan produce two (2) output files based on user defined output name (i.e., toy)
 
 ### 1. toy.res
 
@@ -87,16 +87,12 @@ The toy.res file is a tab delimited file consisting of the following colums:
  * `Start`: The start position of the local genomic region.
  * `End`: The end position of the local genomic region.
  * `r`: The local genetic correlation estimate.
- * `P-value`:The p value of local genetic correlation.
- * `p_avg`: The mean of the the permuted local genetic correlation for *n* number of interations.
- * `p1..pn`:
+ * `pvalue`:The p value of local genetic correlation.
+ * `perm_avg`: The mean of the the permuted local genetic correlation for *n* number of interations.
  
-### 2. toy.nwc
+### 2. toy.chc
 This is a tab delimited file consisting of the following colums
  * `Chr`:The chromosome number.
- * `No_of_windows`: The number of windows per chromosome
+ * `No_of_SNP`: The number of SNPs per chromosome
+ * `No_of_window`: The number of windows per chromosome
  
-### 3. toy.chc
-This is also a tab delimited file consisting of the following colums
- * `Chr`: The chromosome number.
- * `Count`: The nume
