@@ -37,6 +37,8 @@ For example, for *bos* taurus with 29 autosomes, the X chromosome will be 30.
 
 ## How to Run Correlation Scan
 
+`Note`: For windows operating system, forward slash ( / ) must be replaced with backward slash ( \ ).
+
 To run correlation scan, you can first use the *--help* command to get an overview about the built-in commands and their description
 
 ```
@@ -47,8 +49,6 @@ $ perl script/correlation_scan.pl --help
 <img src= "images/help_2.png" width=600, height = 250>
 
 Now that you have an overview of command-line arguments and their explanation, you may run the following command:
-
-`Note`: For windows operating system, forward slash ( / ) must be replaced with backward slash ( \ ).
 
 ### Runinng Correlation Scan for a Single Chromosome (e.g. 1)
 ```
