@@ -48,6 +48,8 @@ $ perl script/correlation_scan.pl --help
 
 Now that you have an overview of command-line arguments and their explanation, you may run the following command:
 
+`Note`: For windows operating system, forward slash (/) must be replaced with backward slash(\).
+
 ### Runinng Correlation Scan for a Single Chromosome (e.g. 1)
 ```
 $ perl script/correlation_scan.pl --file example_data/sample.txt --size 500 --slide 100 --shuffle 1000 --chrset 30 --chr 1 --out toy 
