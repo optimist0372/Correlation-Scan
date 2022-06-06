@@ -46,7 +46,7 @@ $ perl script/correlation_scan.pl --help
 
 ```
 
-<img src= "images/help_3.png" width=600, height = 250>
+<img src= "images/help_3.png" width=500, height = 250>
 
 Now that you have an overview of command-line arguments and their explanation, you may run the following command:
 
