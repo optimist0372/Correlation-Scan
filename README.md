@@ -87,3 +87,5 @@ This is a tab delimited file consisting of the following colums
  * `No_of_SNP`: The number of SNPs per chromosome
  * `No_of_window`: The number of windows per chromosome
  
+## Credit
+Those using the Correllation scan software should cite: [OLASEGE, B.S. et al. Correlation scan: identifying genomic regions that affect genetic correlations applied to fertility traits. 2022](https://doi.org/10.1101/2021.11.05.467409)
