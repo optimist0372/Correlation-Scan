@@ -4,7 +4,7 @@ Correlation scan is a statistical framework developed to estimate local genetic 
 
 ## Requirements
 The software is developed using [Perl language](https://www.perl.org/get.html) and has been tested in Linux, Windows and Mac OS environments.
-Donwload Perl [here](https://www.perl.org/get.html) for your operating system.
+Download Perl [here](https://www.perl.org/get.html) for your operating system.
 
 ## Tutorial
 The tutorial will show you how to download and run Correlation Scan 
@@ -30,7 +30,7 @@ Correlation scan only requires **one input file**. This input file should contai
 
 <img src= "images/head.png" width=400>
 
-If you chromosome contain sex chromosome (e.g. X), the X chromosome should be; (autosome number +1).
+If your chromosome contain sex chromosome (e.g. X), the X chromosome should be; (autosome number +1).
 For example, for *bos* taurus with 29 autosomes, the X chromosome will be 30.
 
 <img src= "images/tail.png" width=400>
