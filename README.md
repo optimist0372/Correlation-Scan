@@ -77,7 +77,6 @@ The toy.res file is a tab delimited file consisting of the following colums:
  * `End`: The end position of the local genomic region.
  * `r`: The local genetic correlation estimate.
  * `pvalue`:The pvalue of local genetic correlation.
- * `perm_avg`: The mean of the the permuted local genetic correlation for *n* number of interations (i.e. shuffle).
  
 ### 2. toy.chc
 This is a tab delimited file consisting of the following colums
