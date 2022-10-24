@@ -85,4 +85,4 @@ This is a tab delimited file consisting of the following colums
  * `No_of_window`: The number of windows per chromosome
  
 ## Credit
-Those using the Correlation scan software should cite: [OLASEGE, B.S. et al. Correlation scan: identifying genomic regions that affect genetic correlations applied to fertility traits. 2022](https://doi.org/10.1101/2021.11.05.467409)
+Those using the Correlation scan software should cite: [OLASEGE, B.S. et al. Correlation scan: identifying genomic regions that affect genetic correlations applied to fertility traits. 2022](https://doi.org/10.1186/s12864-022-08898-7)
